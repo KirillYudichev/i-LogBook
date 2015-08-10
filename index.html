@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html>    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=620, initial-scale=1">
+    <title>i-logbook.com</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header__container ghost-align">
+            <div class="header-logo ghost-align-child"><a class="center-cover" href="index.html"></a>i-LogBook<span class="header-logo__logo-part--brown">.com</span></div>
+        </div>
+        <div class="main-header__container ghost-align">
+            <div class="log-sign-btn btn ghost-align-child">
+                <div class="log-in-btn">
+                    <a class="log-in-btn__link" href="#">Log In</a>
+                </div>
+                <span class="log-sign-btn__part">or</span>
+                <div class="sign-up-btn">
+                    <a class="sign-up-btn__link" href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-header__container ghost-align">
+            <div class="about-us-btn btn ghost-align-child"><a class="center-cover" href="#"></a>About us</div>
+        </div>
+    </header>
+    <main class="main">
+        <article class="info-green-box clearfix">
+            <section class="info-green-box__join-msg">
+                <h2>Best on-line School Logbook Service</h2>
+                <p>i-LogBook is an  innovative infomedia that enables interaction among all the participants of the education process. The Internet portal provides an opportunity to upgrade education immensely. Effective educational technology is a platform for widespread e-education.</p>
+                <div class="join-us-btn btn"><a class="center-cover" href="#"></a>Join Us</div>
+            </section>
+            <iframe class="info-green-box__video" 
+                    width="480"
+                    height="360"
+                    src="https://www.youtube.com/embed/1vcDkmxlqqg" 
+                    frameborder="0" 
+                    allowfullscreen>
+            </iframe>
+        </article>
+        <article class="registration-form__outer-container">
+            <div class="registration-form__header-container clearfix">
+                <h2>Initial school registration</h2>
+                <p><span class="red-star">*</span>Fields marked with with an asterisk are required</p>
+            </div>
+            <form class="registration-form clearfix" method="post" name="school-registration">
+                <fieldset class="registration-form__school">
+                    <h3>School</h3>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Name<span class="red-star">*</span></span>
+                            <input type="text" name="school__name" required>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Type of School<span class="red-star">*</span></span>
+                            <select name="school__type-of-school" required>
+                                <option value=""></option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <div class="select-form-triangle"></div>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Country</span>
+                            <select name="school__country">
+                                <option value=""></option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <div class="select-form-triangle"></div>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                        <span class="input-description">Region</span>
+                            <select name="school__region">
+                                <option value=""></option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <div class="select-form-triangle"></div>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                        <span class="input-description">Locality</span>
+                            <select name="school__locality">
+                                <option value=""></option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <div class="select-form-triangle"></div>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Address<span class="red-star">*</span></span>
+                            <input type="text" name="school__address" required>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Phone<span class="red-star">*</span></span>
+                            <input type="tel" name="school__phone" required>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Website<span class="red-star">*</span></span>
+                            <input type="url"  name="school__website" required>
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset class="registration-form__administration">
+                    <h3>Administration</h3>
+                    <fieldset class="registration-form__system-administrator">
+                        <legend>System Administrator</legend>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">Full name</span>
+                                <input type="text" name="system-administrator__name">
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">E-mail</span>
+                                <input type="email" name="system-administrator__email">
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">Phone</span>
+                                <input type="tel" name="system-administrator__phone">
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="registration-form__principal">
+                        <legend>Principal</legend>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">Full name</span>
+                                <input type="text" name="princip__name">
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">E-mail</span>
+                                <input type="email" name="princip__email">
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">Phone</span>
+                                <input type="tel" name="princip__phone">
+                            </label>
+                        </div>
+</fieldset>
+                    <fieldset class="registration-form__head-of-studies">
+                        <legend>Head of Studies</legend>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">Full name</span>
+                                <input type="text" name="head-of-stud__name">
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">E-mail</span>
+                                <input type="email" name="head-of-stud__email">
+                            </label>
+                        </div>
+                        <div class="input-container">
+                            <label>
+                                <span class="input-description">Phone</span>
+                                <input type="tel" name="head-of-stud__phone">
+                            </label>
+                        </div>
+                    </fieldset>
+</fieldset>
+                <fieldset class="registration-form__you">
+                    <h3>You</h3>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Full name<span class="red-star">*</span></span>
+                            <input type="text" name="you__name" required>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">E-mail<span class="red-star">*</span></span>
+                            <input type="email" name="you__email" required>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Phone<span class="red-star">*</span></span>
+                            <input type="tel" name="you__phone" required>
+                        </label>
+                    </div>
+                    <div class="input-container">
+                        <label>
+                            <span class="input-description">Position<span class="red-star">*</span></span>
+                            <select name="you__position" required>
+                                <option value=""></option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <div class="select-form-triangle"></div>
+                        </label>
+                    </div>
+                </fieldset>
+                <hr class="registration-form__bottom-line">
+                <button class="btn registration-btn" type="submit" value="submit">Registration</button>
+            </form>
+        </article>
+    </main>
+    <footer class="main-footer">
+        <div class="copyright">&copy;2011 All rights reserved</div>
+        <div class="about">i-LogBook.com - logbook service</div>
+    </footer>
+    <div class="sign-in-form pop-up-form center-cover hidden">
+            <form class="sign-in-form--centering">
+                <div class="input-container pop-up-form__input-container">
+                    <label>
+                        <span class="input-description pop-up-form__input-description">Login:</span>
+                        <input type="text" name="sign-in-name">
+                    </label>
+                </div>
+                <div class="input-container pop-up-form__input-container">
+                    <label>
+                        <span class="input-description pop-up-form__input-description">Password:</span>
+                        <input type="password" name="sign-in-password">
+                    </label>
+                </div>
+                <div class="input-container pop-up-form__input-container pop-up-form__checkbox">
+                    <label>
+                        <input type="checkbox" name="sign-in-remember" value="remember">
+                        <span class="input-description pop-up-form__input-description">Remember</span>
+                    </label>
+                </div>
+                <div class="input-container pop-up-form__input-container">
+                    <a href="#">Password recovery</a>
+                </div>
+                <button class="join-us-btn btn" type="submit"><a class="center-cover" href="#"></a>Sign In</button>
+            </form>
+        </div>
+    <div class="join-us-form pop-up-form center-cover hidden">
+        <form class="sign-in-form--centering">
+            <div class="input-container pop-up-form__input-container">
+                <div class="nput-container pop-up-form__input-container">
+                    <label>
+                        <span class="input-description pop-up-form__input-description">Full Name:</span>
+                        <input type="text" name="join-us-name">
+                    </label>
+                </div>
+            </div>
+            <div class="input-container pop-up-form__input-container">
+                <label>
+                    <span class="input-description pop-up-form__input-description">E-mail:</span>
+                    <input type="email" name="join-us-email">
+                </label>
+            </div>
+            <div class="input-container pop-up-form__input-container">
+                <label>
+                    <span class="input-description pop-up-form__input-description">Phone:</span>
+                    <input type="tel" name="join-us-tel">
+                </label>
+            </div>
+            <div class="input-container pop-up-form__input-container">
+                <label>
+                    <span class="input-description pop-up-form__input-description">Position:</span>
+                    <input type="text" name="join-us-position">
+                </label>
+            </div>
+            <button class="join-us-btn btn" type="submit"><a class="center-cover" href="#"></a>Join Us</button>
+        </form>
+    </div>
+    <div class="form-background--fade center-cover hidden"></div>
+    <script type="text/javascript">
+        
+        function show(element) {
+            'use strict';
+            
+            var elements;
+                        
+            if (typeof element === 'string') {
+                elements = document.querySelectorAll(element);
+            }
+            else {
+                elements = [element];
+            }
+            
+            if (!elements.length) {
+                return;
+            }
+            
+            [].forEach.call(elements, function(element) {
+                element.classList.remove('hidden');
+            });
+        }
+        
+        function hide(element) {
+            'use strict';
+            
+            if (typeof element === 'string') {
+                element = document.querySelector(element);
+            }
+            
+            if (!element) {
+                return;
+            }
+            
+                element.classList.add('hidden');
+            }
+        
+        document
+            .querySelector('.sign-up-btn__link')
+            .addEventListener('click', function() {
+                show('.form-background--fade');
+                show('.join-us-form');
+                document
+                    .querySelector('.form-background--fade')
+                    .addEventListener('click', function() {
+                        hide('.form-background--fade');
+                        hide('.join-us-form');
+                    });
+            });
+        
+        document
+            .querySelector('.log-in-btn__link')
+            .addEventListener('click', function() {
+                show('.form-background--fade');
+                show('.sign-in-form');
+                document
+                    .querySelector('.form-background--fade')
+                    .addEventListener('click', function() {
+                        hide('.form-background--fade');
+                        hide('.sign-in-form');
+                    });
+            });
+        
+       /*
+        document.querySelector('.join-us-form-background').addEventListener('click', hide.bind(null, '.join-us-form-background'));
+        document.querySelector('.sign-in-form-background').addEventListener('click', hide.bind(null, '.sign-in-form-background'));
+        document.querySelector('.join-us-form').addEventListener('click', hide.bind(null, '.sign-in-form-background'));
+        document.querySelector('.sign-in-form').addEventListener('click', hide.bind(null, '.sign-in-form-background'));
+        */
+        
+        
+// f.bind
+// 1. Function method 
+// 2. Return a new function, based on the original function
+
+        
+//        document.getElementsByClassName("sign-in-form-background")[0].addEventListener( 'click', changeClass ); 
+    </script>
+</body>
+</html>
